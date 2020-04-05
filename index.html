@@ -4,9 +4,164 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6e5f89998b.js" crossorigin="anonymous"></script>
     <title>Product Landing Page | FreeCodeCamp</title>
 </head>
 <body>
-    
+    <main id="main">
+
+        <header id="header">
+            <div id="header_container">
+                
+                <!-- LOGO + NAVBAR -->
+                <div id="header_flex">
+                    <!-- flex-item 1 img -->
+                    <div id="img_box">
+                        <img src="img/logo.png" alt="" id="header-img">
+                    </div>
+                    <!-- flex-item 2 navbar -->
+                    <div id="nav_box">
+                        <nav id="nav-bar">
+                            <ul>
+                                <li class="nav-link"><a href="#">features</a></li>
+                                <li class="nav-link"><a href="#">how it works</a></li>
+                                <li class="nav-link"><a href="#">pricing</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+
+                <!-- Hero (TITLE + FORM)-->
+                <div id="hero">
+                    <h1>Handcrafted, home-made masterpieces</h1>
+                    <form id="form">
+                        <input type="email" name="email" id="email" placeholder="Enter your email adress"><br>
+                        <button type="submit" id="submit"><a href="https://www.freecodecamp.com/email-submit" target="_blank">get started</a></button>
+                    </form>
+                </div>
+
+            </div>
+        </header>
+
+        <!-- MATERIALS -->
+        <article id="materials">
+            <div id="materials_container">
+                <div id="materials_flex">
+                    <!-- item 1 -->
+                    <div class="materials_flex_item">
+                        <div class="materials-icon">
+                            <i class="fas fa-fire"></i>
+                        </div>
+                        <div class="materials-text">
+                            <h1>premium materials</h1>
+                            <p>Lorem, ipsum Vero, mollitia. dolor sit amet consectetur adipisicing elit. Vero, mollitia.</p>
+                        </div>
+                    </div>
+
+                     <!-- item 2 -->
+                     <div class="materials_flex_item">
+                        <div class="materials-icon">
+                            <i class="fas fa-truck"></i>
+                        </div>
+                        <div class="materials-text">
+                            <h1>fast shipping</h1>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, mollitia. consectetur adipisicing </p>
+                        </div>
+                    </div>
+
+                     <!-- item 3 -->
+                     <div class="materials_flex_item">
+                        <div class="materials-icon">
+                            <i class="fas fa-battery-full"></i>
+                        </div>
+                        <div class="materials-text">
+                            <h1>quality assurance</h1>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, mollitia.  ipsum dolor sit  ipsum dolor sit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <aside>
+            <div id="video_container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/_ESI-wJ5UBo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </aside>
+
+        <section>
+            <div id="price_list">
+
+                <div id="price_list_flex">
+                    <!--  price_list item #1 -->
+                    <div class="price_list_item">
+                        <div class="price_list_item-header">
+                            <h3>tenor trombone</h3>
+                        </div>
+                        <div class="price"><p>$600</p></div>
+                        <div class="details">
+                            <p>Lorem, ipsum</p>
+                            <p>Lorem, ipsum</p>
+                            <p>Lorem, ipsum dolor</p>
+                            <p>Lorem, ipsum</p>
+                        </div>
+                        <button type="submit">select</button>
+                    </div>
+
+                    <!--  price_list item #2 -->
+                    <div class="price_list_item">
+                        <div class="price_list_item-header">
+                            <h3>bass trombone</h3>
+                        </div>
+                        <div class="price"><p>$900</p></div>
+                        <div class="details">
+                            <p>Lorem, ipsum</p>
+                            <p>Lorem, ipsum</p>
+                            <p>Lorem, ipsum dolor</p>
+                            <p>Lorem, ipsum</p>
+                        </div>
+                        <button type="submit">select</button>
+                    </div>
+
+                    <!--  price_list item #1 -->
+                    <div class="price_list_item">
+                        <div class="price_list_item-header">
+                            <h3>valve trombone</h3>
+                        </div>
+                        <div class="price"><p>$1200</p></div>
+                        <div class="details">
+                            <p>plays similar to a Trumpet</p>
+                            <p>great for Jazz Bands</p>
+                            <p>Lorem, ipsum</p>
+                            <p>Lorem, ipsum</p>
+                        </div>
+                        <button type="submit">select</button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <footer>
+            <div id="footer_container">
+
+                <div id="footer_links">
+                    <ul id="footer_links_flex">
+                        <li><a href="#">privacy</a></li>
+                        <li><a href="#">terms</a></li>
+                        <li><a href="#">contact</a></li>
+                    </ul>
+                </div>
+
+                <p id="copyright">
+                    Copyright 2016, Original Trombones
+                </p>
+
+            </div>
+        </footer>
+
+
+
+    </main>
 </body>
 </html>

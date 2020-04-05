@@ -1,0 +1,31 @@
+/* Global Styles */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: 'Lato', sans-serif;
+}
+img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+:root {
+    --background_color: rgb(238,238,238);
+    --button_color: rgb(241,196,15);
+    --icon_color: rgb(236,138,35);
+    --price_footer_color: rgb(221,221,221);
+    --main_text_color: rgb(0,0,0);
+    --price_text_color: rgb(66,66,66);
+    --footer_text_color: rgb(92,92,92);
+}
