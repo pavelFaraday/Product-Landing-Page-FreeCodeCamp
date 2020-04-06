@@ -35,4 +35,4 @@ FreeCodeCamp Product Landing Page with HTML and CSS (No Frameworks) for FreeCode
 
 **User Story #15:** My product landing page should utilize CSS flexbox at least once.
 
-You can see this project LIVE at the following URL: 
+You can see this project LIVE at the following URL: https://pavelfaraday.github.io/Product-Landing-Page-FreeCodeCamp/
